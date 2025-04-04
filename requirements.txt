@@ -1,0 +1,4 @@
+torchcnnbuilder==0.1.4
+numpy==2.0.2
+scikit-image==0.24.0
+matplotlib==3.9.2
