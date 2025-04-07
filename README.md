@@ -1,9 +1,7 @@
 # Towards importance of periodicity estimation in long-term spatio-temporal data prediction - IJCNN 2025
 
-___
 
 ## Content
-___
 This repo contains code and results of experiments with two types of predictive models for spatio-temporal data:
 [CNN model](CNN) and [Diffusion model](Diffusion).
 
@@ -22,16 +20,13 @@ prehistory (input frame number) for forecast. To explorate the period of data pe
 FFT transform can be used. Examples of building period maps for sea ice and loop video presented in 
 [period_map.py](period_map.py).
 
-___
 ## Period map
 Visualization of period map and scheme of its usage for forecasting:
 
 ![loop_gif](media/leg.gif) - example of periodic video.
 ![scheme](media/proposed_approach.png)
 
-___
 ## Models
-___
 ![models](media/model_architecture.png)
 
 **CNN model** used in experiments was implemented with [TorchCNNBuilder](https://github.com/ChrisLisbon/TorchCNNBuilder) tool for automatic 
@@ -42,10 +37,7 @@ resolution for automatic assimilation of different data resolutions.
 **Baselines** were implemented as naive forecasts: mean 5 years for natural datasets (sea ice, WeatherBench), 
 last element for media data.
 
-___
 ## Results
-___
-
 
 ### **Sea Ice Concentration case**
 
@@ -57,9 +49,8 @@ ___
 
 ![anime](media/anime_pred.png)
 
-___
 ## Source materials
 
 Paper text present main goal, extensive results and conclusion of the work. 
 
-Additional information can be found in supplementary materials. 
+Additional information can be found in [supplementary materials](Supplementary.pdf). 
